@@ -1,3 +1,9 @@
 spring:
   applicaton:
     name: admin-server-kubernetes
+  cloud:
+    kubernetes:
+      discovery:
+        all-namespaces: true
+        service-labels:
+          spring-boot: true
