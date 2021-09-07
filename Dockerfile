@@ -1,5 +1,5 @@
 # Start with a base image containing Java runtime
-FROM C:\dev\tools\jdk-11.0.2
+FROM jdk-11.0.9
 
 # Add Maintainer Info
 LABEL maintainer="mark.berry_rtk@yahoo.com"
